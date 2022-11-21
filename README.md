@@ -1,6 +1,19 @@
 # Getting Started with Create React App
 
+### Application Name
 
+INCOME TRACKER
+
+### About Application
+
+A Simple React Application which keeps track of all sources of income and also calculates the total income.
+
+## Screenshots
+
+![hhh](https://user-images.githubusercontent.com/91135247/203129963-27032a83-7ae5-4ac7-8083-62056bcfc799.png)
+
+
+![hhj](https://user-images.githubusercontent.com/91135247/203129975-d9afd6d3-0f03-4a92-af33-2b204e493da0.png)
 
 ## Available Scripts
 
