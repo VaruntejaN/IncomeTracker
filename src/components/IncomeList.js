@@ -6,7 +6,6 @@ function IncomeList({ income, setIncome }) {
   const removeIncome = i => {
     let temp = income.filter((v, index) => index !== i);
     setIncome(temp);
-    localStorage.getItem("income",JSON.stringify(temp))
   }
 
   return (
