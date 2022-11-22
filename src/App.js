@@ -4,10 +4,7 @@ import IncomeForm from "./components/IncomeForm";
 import IncomeList from "./components/IncomeList";
 
 function App() {
-  const initialState = localStorage.getItem("income")
-    ? JSON.parse(localStorage.getItem("income"))
-    : [];
-  const [income, setIncome] = useState(initialState);
+  const [income, setIncome] = useState([]);
   const [totalIncome, setTotalIncome] = useState(0);
 
   useEffect(() => {
