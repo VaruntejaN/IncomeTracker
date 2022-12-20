@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      {console.log("Hello...")}
       <Header totalIncome={totalIncome} />
       <IncomeForm income={income} setIncome={setIncome} />
       <IncomeList income={income} setIncome={setIncome} />
